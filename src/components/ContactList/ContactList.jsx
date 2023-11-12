@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { GrContactInfo } from 'react-icons/gr';
+import { ImPhone } from 'react-icons/im';
 import {
   selectError,
   selectFilteredContacts,
@@ -35,7 +35,7 @@ export const ContactList = () => {
       <List>
         {filteredContacts.map(({ id, name, phone }) => (
           <Item key={id}>
-            <GrContactInfo size={20} />
+            <ImPhone size={20} />
             <Text>
               {name}: {phone}
             </Text>

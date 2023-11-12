@@ -8,7 +8,7 @@ export const Item = styled.li`
   width: 500px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   font-size: 17px;
 
   &:not(:last-child) {
