@@ -35,7 +35,7 @@ export const ContactList = () => {
       <List>
         {filteredContacts.map(({ id, name, phone }) => (
           <Item key={id}>
-            <ImPhone size={20} />
+            <ImPhone size={15} />
             <Text>
               {name}: {phone}
             </Text>
